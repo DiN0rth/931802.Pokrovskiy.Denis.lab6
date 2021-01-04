@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+main{
+    width: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+#Buttons{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    color: white;
+    background-color: red;
+    width: 293.3px;
+    border: 2px solid black;
+    height: 50px;
+    font-size: 25px;
+    outline: none;
+}
+#Content{
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    background-color: blue;
+    padding: 20px 20px 100px 20px;
+}
+#right{
+    background-color: green;
+    padding: 20px 20px 100px 20px;
+}
+img{
+    width: 400px;
+    height: 350px;
+}
